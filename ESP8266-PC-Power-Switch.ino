@@ -26,7 +26,7 @@ const int num_commands = sizeof(commands_str) / sizeof(char *);
 int (*commands_func[])(){&press_1s, &press_10s, &resetPC, &statusPC/*, &auth, &press_Ns*/};
 
 WiFiUDP Udp;
-const int localUdpPort = 4662;
+const int localUdpPort = 4567; //---------------- Change this! ----------------
 char incomingPacket[255];
 char outgoingPacket[255];
 
