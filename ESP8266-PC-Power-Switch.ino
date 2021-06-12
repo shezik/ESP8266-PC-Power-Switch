@@ -38,6 +38,7 @@ int functionPending;
 ESP8266WiFiMulti WiFiMulti;
 
 void setup() {
+   //---------------- Change this! ----------------
   pinMode(D1, OUTPUT); // Power button control
   pinMode(D2, OUTPUT); // Reset button control
   pinMode(D5, INPUT); // Power indicator on PC
