@@ -27,8 +27,8 @@ int (*commands_func[])(){&press_1s, &press_10s, &resetPC, &statusPC/*, &auth, &p
 
 WiFiUDP Udp;
 const int localUdpPort = 4567; //---------------- Change this! ----------------
-char incomingPacket[255];
-char outgoingPacket[255];
+char incomingPacket[256];
+char outgoingPacket[256];
 
 String secret = "YOUR-SUPER-SECRET-STRING-HERE"; //---------------- Change this! ----------------
 String expectedResponse;
